@@ -24,25 +24,25 @@ a {
 
 /* BACKGROUND OF THE PAGE */
 .app.crew {
-  background-image: url("../assets/crew/background-crew-mobile.jpg");
+  background-image: url("/assets/crew/background-crew-mobile.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .app.destination {
-  background-image: url("../assets/destination/background-destination-mobile.jpg");
+  background-image: url("/assets/destination/background-destination-mobile.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 .app.technology {
-  background-image: url("../assets/technology/background-technology-mobile.jpg");
+  background-image: url("/assets/technology/background-technology-mobile.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .app {
   min-height: 100vh;
-  background-image: url("../assets/home/background-home-mobile.jpg");
+  background-image: url("/assets/home/background-home-mobile.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -590,25 +590,25 @@ h3 {
 @media (min-width: 700px) {
   /* BACKGROUND OF THE PAGE */
   .app.crew {
-    background-image: url("../assets/crew/background-crew-tablet.jpg");
+    background-image: url("/assets/crew/background-crew-tablet.jpg");
     background-repeat: no-repeat;
     background-size: cover;
   }
 
   .app.destination {
-    background-image: url("../assets/destination/background-destination-tablet.jpg");
+    background-image: url("/assets/destination/background-destination-tablet.jpg");
     background-repeat: no-repeat;
     background-size: cover;
   }
   .app.technology {
-    background-image: url("../assets/technology/background-technology-tablet.jpg");
+    background-image: url("/assets/technology/background-technology-tablet.jpg");
     background-repeat: no-repeat;
     background-size: cover;
   }
 
   .app {
     min-height: 100vh;
-    background-image: url("../assets/home/background-home-tablet.jpg");
+    background-image: url("/assets/home/background-home-tablet.jpg");
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -651,25 +651,25 @@ h3 {
 @media (min-width: 1200px) {
   /* BACKGROUND OF THE PAGE */
   .app.crew {
-    background-image: url("../assets/crew/background-crew-desktop.jpg");
+    background-image: url("/assets/crew/background-crew-desktop.jpg");
     background-repeat: no-repeat;
     background-size: cover;
   }
 
   .app.destination {
-    background-image: url("../assets/destination/background-destination-desktop.jpg");
+    background-image: url("/assets/destination/background-destination-desktop.jpg");
     background-repeat: no-repeat;
     background-size: cover;
   }
   .app.technology {
-    background-image: url("../assets/technology/background-technology-desktop.jpg");
+    background-image: url("/assets/technology/background-technology-desktop.jpg");
     background-repeat: no-repeat;
     background-size: cover;
   }
 
   .app {
     min-height: 100vh;
-    background-image: url("../assets/home/background-home-desktop.jpg");
+    background-image: url("/assets/home/background-home-desktop.jpg");
     background-repeat: no-repeat;
     background-size: cover;
   }
