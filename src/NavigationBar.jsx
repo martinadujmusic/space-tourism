@@ -20,7 +20,7 @@ function NavigationBar() {
       <a href="#">
         <img src={logo} alt="Space-Logo" className="logo" />
       </a>
-      <span className="line"></span>
+      <span className="nav-line"></span>
 
       {/*NAVIGATION MENU*/}
 

@@ -1,70 +1,65 @@
 import { useState } from "react";
 import "../index.css";
-import Footer from "../components/Footer";
-import Header from "../components/Header";
-import Body from "../components/Body";
 
 export const Destination = ({ data }) => {
   const [slide, setSlide] = useState(0);
 
   return (
-    <div className="container destination">
-      <Header>
-        <h2 className="subheading">
-          <span>01</span> PICK YOUR DESTINATION
-        </h2>
-      </Header>
-      <div className="indicators destination-names">
-        {data.map((destination, idx) => {
-          return (
-            <span
-              key={idx}
-              className={
-                slide === idx
-                  ? "indicator active"
-                  : "indicator indicator-inactive"
-              }
-              onClick={() => setSlide(idx)}
-            >
-              {destination.name}
-            </span>
-          );
-        })}
-      </div>
+    <div className="container destination-container">
+      <h2 className="subheading destination-subheading">
+        <span>01</span> PICK YOUR DESTINATION
+      </h2>
 
       {data.map((destination, idx) => {
         return (
-          <article
+          <div
             key={destination.description}
-            className={
-              slide === idx
-                ? "slide destination-container"
-                : "slide slide-hidden "
-            }
+            className={slide === idx ? "destination-slide" : "hidden"}
           >
-            <img src={destination.images.webp} alt="destination image" />
+            <img
+              src={destination.images.webp}
+              alt="destination image"
+              className="destination-img"
+            />
+            <div className="destination-content">
+              <div className="indicators destination-names">
+                {data.map((destination, idx) => {
+                  return (
+                    <span
+                      key={idx}
+                      className={
+                        slide === idx
+                          ? "indicator active"
+                          : "indicator indicator-inactive"
+                      }
+                      onClick={() => setSlide(idx)}
+                    >
+                      {destination.name}
+                    </span>
+                  );
+                })}
+              </div>
+              <div className="destination-text">
+                <h1 className="destination-name">{destination.name}</h1>
+                <p className="destination-description">
+                  {destination.description}
+                </p>
+                <span className="destination-line"></span>
 
-            <div className="destination-text">
-              <Body>
-                <h1>{destination.name}</h1>
-                <p>{destination.description}</p>
-              </Body>
-
-              <Footer>
                 <div className="destination-information">
                   <div className="average-distance">
                     <h4>Avg. distance</h4>
                     <span>{destination.distance}</span>
                   </div>
 
-                  <div className="travel-time">
+                  <div className="destination-travel-time">
                     <h4>Est.travel time</h4>
                     <span>{destination.travel}</span>
                   </div>
                 </div>
-              </Footer>
+              </div>
             </div>
-          </article>
+          </div>
         );
       })}
     </div>
