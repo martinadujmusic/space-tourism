@@ -133,10 +133,14 @@ a {
 
 .hamburger-open {
   height: 32px;
+  position: absolute;
+  margin-right: 10px;
 }
 
 .hamburger-closed {
   height: 32px;
+  position: absolute;
+  margin-right: 10px;
 }
 
 .nav-num {
@@ -247,6 +251,11 @@ a {
   font-size: 1.25rem;
   line-height: 1.75rem;
   font-family: "Bellefair", serif;
+  transition: 0.9s;
+}
+
+.explore-button:hover {
+  transform: scale(0.9);
 }
 
 /*--- DESTINATION ---*/
