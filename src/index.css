@@ -15,7 +15,7 @@ body {
   margin: 0px;
   padding: 0px;
   width: 100%;
-  min-height: 100vh;
+  height: 100%;
   overflow-x: hidden;
 }
 
@@ -85,10 +85,6 @@ a {
 
 .nav-line {
   display: none;
-}
-
-nav {
-  height: 100%;
 }
 
 .navigation {
@@ -237,16 +233,18 @@ nav {
   color: hsl(0, 0%, 100%);
   font-size: 6.25rem;
   font-weight: 400;
-  margin-bottom: 0;
-  margin-top: 20px;
+  margin-bottom: 0px;
 }
 
 .home-article {
   font-size: 1rem;
   line-height: 1.5rem;
   font-family: "Barlow", sans-serif;
-  margin: 0;
   color: hsl(0 0% 100%);
+}
+
+.explore-button-container {
+  margin-bottom: 5rem;
 }
 
 .explore-button {
@@ -397,6 +395,7 @@ nav {
   font-size: 16px;
   line-height: 24px;
   color: hsl(231, 77%, 90%);
+  margin-bottom: 0px;
 }
 
 .crew-slide {
@@ -418,7 +417,7 @@ nav {
 
 .pagination-crew {
   margin-top: 50px;
-  margin-bottom: 32px;
+  margin-bottom: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -514,6 +513,7 @@ nav {
   font-size: 0.875rem;
   line-height: 1.25rem;
   color: hsl(231 77% 90%);
+  margin-bottom: 54px;
 }
 
 /*--- MEDIA QUERIES ---*/
@@ -615,6 +615,10 @@ nav {
 
   .homepage-container {
     margin-top: 6.625rem;
+  }
+
+  .explore-button-container {
+    margin-bottom: 9.75rem;
   }
 
   .home-text {
