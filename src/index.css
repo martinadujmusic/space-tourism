@@ -54,11 +54,13 @@ a {
   background-image: url("/assets/technology/background-technology-mobile.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  margin: auto;
 }
 
 .app {
-  min-height: 100vh;
+  min-height: 100vw;
   width: 100%;
+  position: relative;
   background-image: url("/assets/home/background-home-mobile.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -85,6 +87,10 @@ a {
   display: none;
 }
 
+nav {
+  height: 100%;
+}
+
 .navigation {
   display: flex;
   justify-content: space-between;
@@ -100,11 +106,13 @@ a {
   gap: 40px;
   min-width: 290px;
   width: 70%;
-  min-height: 100vh;
+  min-height: 100vw;
   position: absolute;
   top: 0px;
   right: 0;
   padding: 140px 0px 30px 70px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   margin-left: 20px;
   z-index: 1;
   text-transform: uppercase;
@@ -129,16 +137,18 @@ a {
   border: none;
   cursor: pointer;
   z-index: 1;
+  margin-right: 35px;
+  margin-top: -40px;
 }
 
 .hamburger-open {
-  height: 32px;
+  height: 38px;
   position: absolute;
   margin-right: 10px;
 }
 
 .hamburger-closed {
-  height: 32px;
+  height: 38px;
   position: absolute;
   margin-right: 10px;
 }
@@ -719,7 +729,6 @@ a {
 
   .app.technology {
     min-height: 64rem;
-    height: 44.375rem;
   }
 
   .technology-container.container {
@@ -728,7 +737,8 @@ a {
 
   .technology-img {
     width: 52vw;
-    height: 100vh;
+    height: auto;
+    object-fit: cover;
     margin-bottom: 3.5rem;
   }
 
@@ -745,7 +755,6 @@ a {
 
   .technology-text {
     width: 28.625rem;
-    height: 14.125rem;
     margin: 0;
   }
 
