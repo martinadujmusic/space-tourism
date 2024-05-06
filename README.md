@@ -25,22 +25,23 @@ Users should be able to:
 -Personal challenge: add a loading screen.
 
 ### Screenshot
-<br/><br/> 
+
+<br/><br/>
 <img src="screenshot.png" width="450" height="650"/>
 <br/><br/>
-<br/><br/> 
+<br/><br/>
+
 ### Link
 
 https://martinadujmusic.github.io/space-tourism/
-<br/><br/> 
+<br/><br/>
 
 ## My process
 
 ### Built with
 
-- Semantic HTML5 markup
+- Mobile-first workflow
 - CSS custom properties
 - Flexbox
-- Mobile-first workflow
 - Single page application
 - [React](https://react.dev/) - JS library
