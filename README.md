@@ -8,7 +8,7 @@ This is a solution to the [Space tourism website challenge on Frontend Mentor](h
 
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
-  - [Links](#links)
+  - [Link](#link)
 
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -24,8 +24,9 @@ Users should be able to:
 -View each page and be able to toggle between the tabs to see new information
 -Personal challenge: add a loading screen.
 
-### Screenshots
+### Screenshot
 
+![screenshot](screenshot.png)
 
 ### Link
 
@@ -41,6 +42,3 @@ https://martinadujmusic.github.io/space-tourism/
 - Mobile-first workflow
 - Single page application
 - [React](https://react.dev/) - JS library
-  
-
-
