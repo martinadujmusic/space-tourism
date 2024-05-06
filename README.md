@@ -25,12 +25,14 @@ Users should be able to:
 -Personal challenge: add a loading screen.
 
 ### Screenshot
-
-![screenshot](screenshot.png)
-
+<br/><br/> 
+<img src="screenshot.png" width="450" height="650"/>
+<br/><br/>
+<br/><br/> 
 ### Link
 
 https://martinadujmusic.github.io/space-tourism/
+<br/><br/> 
 
 ## My process
 
